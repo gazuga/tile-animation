@@ -1,0 +1,33 @@
+{
+  "name": "tile-animation",
+  "version": "0.1",
+  "description": "Metro style tiling animations",
+  "keywords": [
+    "animation",
+    "metro",
+    "tile"
+  ],
+  "author": "Gazuga s.c. <info@gazuga.pl>",
+  "maintainers": [
+    "tomasz.gawron@gazuga.pl"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "jeesh": "*"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/gazuga/tile-animation.git"
+    }
+  ],
+  "engines": [
+    "node"
+  ],
+  "ender": "./animations.js"
+}
+
