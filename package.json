@@ -1,6 +1,6 @@
 {
   "name": "tile-animation",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Metro style tiling animations",
   "keywords": [
     "animation",
@@ -16,9 +16,6 @@
       "type": "MIT"
     }
   ],
-  "dependencies": {
-    "jeesh": "*"
-  },
   "repositories": [
     {
       "type": "git",
@@ -28,6 +25,10 @@
   "engines": [
     "node"
   ],
-  "ender": "./animations.js"
+  "dependencies": {
+    "jeesh": "*"
+  },
+  "main": "./animations.js",
+  "ender": "./ender.js"
 }
 
